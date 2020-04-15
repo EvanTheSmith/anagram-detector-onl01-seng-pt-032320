@@ -16,7 +16,7 @@ class Anagram
         word
        end
     end
-    check.delete_if
+    check.delete_if(&:nil)
     check
   end
   
