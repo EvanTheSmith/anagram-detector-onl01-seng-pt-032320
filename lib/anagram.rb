@@ -16,10 +16,7 @@ class Anagram
         word
        end
     end
-    check = check.uniq
-    if check==[nil]
-    check=[] 
-    end
+    check.delete_if
     check
   end
   
