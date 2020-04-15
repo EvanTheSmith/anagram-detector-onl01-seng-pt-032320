@@ -16,7 +16,7 @@ class Anagram
         word
        end
     end
-    check.delete_if(&:[nil])
+    check.delete_if {|thing| thing==nil}
     check
   end
   
