@@ -17,7 +17,11 @@ class Anagram
        end
     end
     check = check.uniq
-    check=[] if check==[nil]
+    if check==[nil]
+    check=[] 
+    else
+    check
+    end
   end
   
 end
