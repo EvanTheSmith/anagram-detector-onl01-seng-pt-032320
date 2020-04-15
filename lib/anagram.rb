@@ -13,7 +13,7 @@ class Anagram
       second_word = @matcher.split("").sort.join
       
       if first_word == second_word
-        return word
+        word
        end
     end
     check = check.uniq
