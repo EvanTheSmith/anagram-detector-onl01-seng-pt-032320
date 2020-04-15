@@ -20,6 +20,7 @@ class Anagram
     if check==[nil]
     check=[] 
     end
+    check
   end
   
 end
